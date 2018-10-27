@@ -62,9 +62,9 @@ void setup() {
     if (keysightSCPI.connect("192.168.1.187", 5025)) {
       Serial.println("Keysight connected");
       // Make a HTTP request:
-      keysightSCPI.println("OUTP ON,(@2)");
-      delay(1000);
-      keysightSCPI.println("OUTP OFF,(@2)");
+      //keysightSCPI.println("OUTP ON,(@2)");
+      //delay(1000);
+      //keysightSCPI.println("OUTP OFF,(@2)");
     }
 
 /*
